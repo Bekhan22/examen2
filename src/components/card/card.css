@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 350px;
+    padding: 15px;
+    border: 1px solid rgb(199, 198, 198);
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+}
+
+.btn {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(198, 196, 196);
+    color: black;
+    border: none;
+    border-radius: 25px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
